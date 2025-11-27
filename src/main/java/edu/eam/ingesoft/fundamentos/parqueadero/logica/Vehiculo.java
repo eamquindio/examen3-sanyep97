@@ -32,6 +32,7 @@ public class Vehiculo {
         this.tipo = tipo;
     }
 
+    
     // ==================== GETTERS ====================
 
     /**

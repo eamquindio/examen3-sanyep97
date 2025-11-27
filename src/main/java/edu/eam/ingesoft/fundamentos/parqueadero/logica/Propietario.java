@@ -76,7 +76,6 @@ public class Propietario {
             return "VIP";
         }
     }
-
     /**
      * Calcula el porcentaje de descuento según la categoría del cliente.
      * - ESTANDAR: 0% (0.0)

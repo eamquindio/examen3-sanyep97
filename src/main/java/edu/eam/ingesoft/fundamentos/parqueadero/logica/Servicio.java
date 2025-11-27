@@ -81,8 +81,8 @@ public class Servicio {
      */
     public double calcularCosto() {
         int horas = calcularHoras();
-        double tarifa = vehiculo.obtenerTarifaHora();
+        double tarifaHora = vehiculo.obtenerTarifaHora();
         double descuento = vehiculo.getPropietario().obtenerDescuento();
-        return horas * tarifa * (1 - descuento);
+        return horas * tarifaHora * (1 - descuento);
     }
 }

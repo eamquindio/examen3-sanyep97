@@ -24,7 +24,6 @@ public class Parqueadero {
         this.vehiculos = new ArrayList<>();
         this.servicios = new ArrayList<>();
     }
-
     // ==================== MÉTODOS DE BÚSQUEDA ====================
 
     /**
